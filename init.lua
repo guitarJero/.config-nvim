@@ -15,4 +15,4 @@ local opts = {}
 
 require("vim-options")
 require("lazy").setup("plugins")
-vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "tokyonight"

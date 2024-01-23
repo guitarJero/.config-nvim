@@ -11,6 +11,6 @@ return {
     hide_gitignored = false,
   },
   config = function()
-    vim.keymap.set('n', '<leader>n', ':Neotree toggle<CR>', {})
+    vim.keymap.set('n', '<leader>ee', ':Neotree toggle<CR>', {})
   end,
 }

@@ -1,4 +1,5 @@
 return {
-  "norcalli/nvim-colorizer.lua",
-  lazy = false,
+  "NvChad/nvim-colorizer.lua",
+  event = { "BufReadPre", "BufNewFile" },
+  config = true,
 }

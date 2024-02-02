@@ -29,6 +29,7 @@ return {
 		-- to setup format on save
 		local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
+		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
 		-- configure null_ls
 		null_ls.setup({
 			-- add package.json as identifier for root (for typescript monorepos)

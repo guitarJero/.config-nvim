@@ -1,14 +1,14 @@
 return {
 	"bluz71/vim-nightfly-colors",
 	name = "nightfly",
+	lazy = "VeryLazy",
 	priority = 1000,
-	-- config = function()
-	-- 	require("nightfly").setup({})
-	-- 	vim.g.nightFlyTransparent = true
-	-- 	vim.g.nightFlyCursorColor = true
-	-- end,
-	-- options = {
-	-- 	nightflyTransparent = true,
-	-- 	nightFlyCursorColor = true,
-	-- },
+	config = function()
+		vim.g.nightflyTransparent = true
+		vim.g.nightflyCursorColor = true
+		vim.g.nightflyNormalFloat = true
+		require("notify").setup({
+			background_colour = "#1a1b26",
+		})
+	end,
 }

@@ -11,7 +11,8 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("vim-options")
+require("jero.vim-options")
+require("jero.keymaps")
 require("lazy").setup({
 	{ import = "plugins" },
 	{ import = "plugins.themes" },

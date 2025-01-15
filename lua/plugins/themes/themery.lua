@@ -18,7 +18,6 @@ return {
 					]],
 				},
 			},
-			themeConfigFile = "~/.config/nvim/lua/jero/themeconfig.lua",
 			LivePreview = true,
 		})
 	end,
